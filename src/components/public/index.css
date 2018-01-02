@@ -1,0 +1,12 @@
+.header {
+  height: .88rem;
+  line-height: .88rem;
+  background: #fff url(https://staticfile.tujia.com/mobile/styles/page/img/icon/logo_header_e.png) no-repeat center center;
+  background-size: auto 20px;
+}
+.header .rightTopBtn {
+  float: right;
+  color: #f60;
+  padding: 0 .2rem;
+  font-size: .28rem;
+}
