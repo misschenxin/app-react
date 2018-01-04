@@ -108,5 +108,10 @@
         "^/tujia": ""
       }
     }
+
+  },
+  "theme": {
+    "brand-primary": "green",
+    "color-text-base":  "#333"
   }
 }
