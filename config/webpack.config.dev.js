@@ -149,6 +149,9 @@ module.exports = {
               // It enables caching results in ./node_modules/.cache/babel-loader/
               // directory for faster rebuilds.
               cacheDirectory: true,
+              plugins:[
+                ["import",{libraryName:"antd-mobile",style:"css"}]
+              ]
             },
           },
           // "postcss" loader applies autoprefixer to our CSS.
@@ -186,6 +189,22 @@ module.exports = {
                   ],
                 },
               },
+            ],
+          },
+          {
+            test: /\.scss$/,
+            use: [
+              require.resolve('style-loader'),
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                },
+              },
+              {
+                loader: require.resolve('sass-loader'),
+              }
+              
             ],
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.

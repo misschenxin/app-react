@@ -1,0 +1,128 @@
+.source .source-header {
+  height: .88rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  line-height: .88rem;
+  background: #fff;
+}
+.source .source-header .back {
+  width: .88rem;
+  text-align: center;
+}
+.source .source-header .back i {
+  color: #f90;
+}
+.source .source-header .back a {
+  color: #f90;
+}
+.source .source-header .sourceIuput {
+  flex: 1;
+  background: #f0f3f6;
+  height: .56rem;
+  border-radius: 10px;
+  line-height: .56rem;
+  margin: 10px 30px 0 40px;
+}
+.source .source-header .source {
+  width: .6rem;
+  text-align: center;
+  color: #f90;
+  margin-right: 10px;
+}
+.source .source-header .sourceIuput i {
+  float: left;
+  color: #f90;
+  text-align: center;
+  width:20%;
+
+}
+.source .source-header .sourceIuput input {
+  background: #f0f3f6;
+  border: none;
+  width: 80%;
+}
+.source .location {
+  line-height: .9rem;
+  text-indent: 10px;
+  background: #f7f9fb;
+  margin-top: 20px;
+}
+.source .location .navigation {
+  color: #f90;
+  margin-right: 10px;
+}
+.source .location .rightArrow {
+  float: right;
+  margin-right: 10px;
+  font-size: .4rem;
+}
+.source .location-content {
+  background: #f0f3f6;
+  margin-top: .88rem;
+  overflow: hidden;
+}
+.source .tab-city {
+  height: .9rem;
+  line-height: .9rem;
+  text-indent: 10px;
+}
+.source .tab-city .inland {
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+.source .tab-city .oversea {
+  padding: 0 10px;
+}
+.source .inlandCity {
+  background: #f7f9fb;
+}
+.source .inlandCity .classify-city {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.source .inlandCity .classify-city li {
+  margin-bottom: 18px;
+  width: 22.5%;
+  font-size: 14px;
+  line-height: 28px;
+  height: 30px;
+  text-align: center;
+  color: #555;
+  border: 1px solid #999;
+}
+.source .all-city {
+  padding-left: 15px;
+  line-height: 45px;
+  background: #f7f9fb;
+}
+.source .city-header {
+  min-height: 110px;
+}
+.source .city-header li {
+  line-height: 33px;
+  float: left;
+  padding: 0 15px;
+}
+.source .sort-city h2 {
+  padding-left: 15px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+.source .sort-city ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+}
+.source .sort-city ul li {
+  margin-bottom: 18px;
+  width: 22.5%;
+  font-size: 14px;
+  line-height: 28px;
+  height: 30px;
+  text-align: center;
+  color: #555;
+  border: 1px solid #999;
+}
