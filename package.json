@@ -98,5 +98,16 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "proxy":{
+    "/loho88": {
+      "target": "http://m.loho88.com",
+      "changeOrigin": true,
+      "pathRewrite": { "^/loho88" : "" }
+    }
+  },
+  "theme": {
+    "brand-primary": "green",
+    "color-text-base":  "#333"
   }
 }

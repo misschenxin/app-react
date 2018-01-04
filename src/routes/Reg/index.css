@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+#Reg-page{
+    height: 100%;text-align: center;
+}
+#Reg-page{
+    padding: 0 10%;
+}
+#Reg-page div:nth-child(1){
+    padding-top: 20%;
+}
+.Reg-input li:nth-child(1){
+    margin-top: 30px;
+}
+.Reg-input input{
+    width: 0;flex:1;
+    border: none;outline: none;float: left;background:rgba(2,2,2,0);line-height: 46px;padding-left: 30px;color: #fff;
+}
+.Reg-input li{
+    width: 100%;margin-bottom: 15px;border-bottom: 1px solid rgba(255,255,255,.46);height: 46px;position: relative;display: flex;
+}
+.Reg-input li i{
+    line-height: 46px;color: white;font-weight: 700;position: relative;
+}
+.Reg-input li:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 18px;
+    height: 20px;
+    background: url("https://staticfile.tujia.com/mobile/styles/page/img/icon/account_x.png") no-repeat left top;
+    background-size: 18px;
+}
+.Reg-input li:nth-child(1) i em{
+    color: #fff;font-size: 14px;line-height: 46px;margin-right: 2px;position: relative;
+}
+.Reg-input li em{
+    color: #b4b4b4;font-size: 14px;line-height: 46px;margin-right: 2px;
+}
+.Reg-input li em:nth-child(1){
+    position: absolute;color: #b4b4b4;font-size: 20px;line-height: 46px;
+}
+.Reg-start{
+    margin-top: 20px;color: rgba(255,255,255,.8);font-size: 10px;
+}
+.Reg-start a{
+    color: rgba(255,255,255,.8);
+}
+.Reg-end{
+    margin-top: 30px;
+}
+.Reg-end a{
+    color: white;font-size: 14px;font-weight: 700;line-height: 14px;
+}
+.Reg-input li:nth-child(4){
+    margin-bottom: 0;
+}
+.am-wingblank.am-wingblank-lg{
+    margin: 0;
+}
+.shi{
+    color: white;
+}
